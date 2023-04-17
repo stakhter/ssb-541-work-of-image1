@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>work of image</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!--use internal image-->
+	<h1 class="h">Internal image:</h1>
+	<img src="images/laptop.jpg" alt="Laptop" title="Laptop" />
+	<!--use external image-->
+	<h1 class="h">External image:</h1>
+	<img src="https://www.shikhbeshobai.com/frontend/assets/images/intro.png" alt="Shikhbe Shobai" tittle="Shikhbe Shobai Intro"/>
+	<!--use image as link-->
+	<h1 class="h">Image as a link:</h1>
+	<a href="https://www.google.com/search?q=smiley+emoji&rlz=1C1JJTC_enBD1045BD1045&sxsrf=APwXEddT3F8DilvKOusJG0-sOLEttUU9lA:1681766055069&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjV57ri6rH-AhVvTWwGHcz2B3kQ_AUoAXoECAEQAw&biw=1366&bih=600&dpr=1" target="_blank">
+	<img src="images/smiley.jpg" alt="Smiley Emoji" title="Smiley Emoji"/>
+	</a>
+	<!--using image floating-->
+	<h1 class="h">Image floating</h1>
+	<div class="d1">
+	<p>The image will float to the right of the text.Here has the beautiful nature photo, like ocean.<img class="i1" src="images/nature.jpg" alt="Nature" title="Beauty of nature"></p>
+	</div><br>
+	<div class="d1"><p>The image will float to the left of the text.Here has the beautiful nature photo, like ocean.<img class="i2" src="images/nature.jpg" alt="Nature" title="Beauty of nature"></p>
+	</div><br>
+	<div class="d1">
+	<p>The image will be displayed just where it occures in the text.Here has the beautiful nature photo, like ocean.<img class="i3" src="images/nature.jpg" alt="Nature" title="Beauty of nature"></p>
+	</div><br>
+	<div class="d1">
+	<p>The image inherits the float value of its parent.Here has the beautiful nature photo, like ocean.<img class="i4" src="images/nature.jpg" alt="Nature" title="Beauty of nature"></p>
+	</div><br>
+	<!--use area map-->
+	<h1>You can click on the computer, phone or cup of coffee in the following image:</h1>
+	<img src="images/workplace.jpg" alt="Workplace" usemap="#workmap">
+
+	<map name="workmap">
+		<area shape="rect" coords="244,243,125,27" alt="Computer" href="https://www.google.com/search?q=latest+version+laptop+2022&rlz=1C1JJTC_enBD1045BD1045&sxsrf=APwXEdf-IghHUaiywCe4DMOTk09ty4NV5A:1681766161288&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiY7o2V67H-AhUNTWwGHRobDjAQ_AUoAXoECAIQAw&biw=1366&bih=600&dpr=1" target="_blank">
+		<area shape="rect" coords="421,178,410,170" alt="Phone" href="https://www.google.com/search?q=latest+mobile+phones&tbm=isch&ved=2ahUKEwjutuPb67H-AhV0_DgGHbC_Bu0Q2-cCegQIABAA&oq=latest+mobile&gs_lcp=CgNpbWcQARgAMgQIIxAnMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOggIABCABBCxAzoICAAQsQMQgwE6BAgAEANQ8BxYmUFg81toAHAAeACAAbEBiAHBCJIBAzAuOJgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=pbc9ZK7QHfT44-EPsP-a6A4&bih=600&biw=1366&rlz=1C1JJTC_enBD1045BD1045" target="_blank">
+		<area shape="circle" coords="433,312,36" alt="Cup" href="https://www.google.com/search?q=cup+of+coffee&tbm=isch&ved=2ahUKEwiHqq7867H-AhVlyKACHQbGCYgQ2-cCegQIABAA&oq=cup+of+&gs_lcp=CgNpbWcQARgAMgcIABCKBRBDMgcIABCKBRBDMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECc6CAgAELEDEIMBOggIABCABBCxAzoKCAAQigUQsQMQQzoHCAAQgAQQE1CFG1iDNmCGSmgAcAB4AIABlQKIAdMLkgEFMC41LjOYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=6bc9ZMeRMuWQg8UPhoynwAg&bih=600&biw=1366&rlz=1C1JJTC_enBD1045BD1045" target="_blank">
+	</map><br>
+	<!--use picture element-->
+	<h1>Different images:</h1>
+	<picture>
+		<source media="(min-width:650px)" srcset="images/computer.jpg">
+		<source media="(min-width:500px)" srcset="images/phone.jpg">	
+		<img src="images/cup.jpg">
+	</picture>
+
+	
+</body>
+</html>

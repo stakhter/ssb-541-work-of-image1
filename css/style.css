@@ -1,0 +1,35 @@
+body{
+	background-image: url(background.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.h{
+	border:3px solid dodgerblue;
+	text-align: center;
+}
+.i1{
+	float:right ;
+	width: 42px;
+	height: 42px;
+}
+.i2{
+	float:left ;
+	width: 42px;
+	height: 42px;
+}
+.i3{
+	float:none ;
+	width: 42px;
+	height: 42px;
+}
+.i4{
+	float:inherit ;
+	width: 42px;
+	height: 42px;
+}
+.d1{
+	
+	border: 1px solid mediumseagreen;
+	padding: 15px;
+}
